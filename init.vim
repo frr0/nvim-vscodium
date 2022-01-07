@@ -80,7 +80,7 @@ nnoremap <space>i :split <cr>
 " yank
 
 nnoremap Y y$
-nnoremap <c-c> "+y
+vnoremap <c-c> "+y
 nnoremap yt 0y$
 
 " man

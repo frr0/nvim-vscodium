@@ -8,6 +8,20 @@ call plug#begin(stdpath('data') . 'vimplug')
     Plug 'preservim/nerdcommenter'
 call plug#end()
 
+"set number
+"set relativenumber
+"set mouse=a
+set ignorecase
+set hidden
+"set spelllang=en_us
+
+set expandtab
+set tabstop=2
+set shiftwidth=2
+
+set backspace=indent,eol,start "allow backspacing over everything in insert mode
+set autoindent
+set cursorline
 
 " mappings
 "===================================

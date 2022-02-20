@@ -1062,7 +1062,6 @@
     "markdown-preview-enhanced.previewTheme": "atom-dark.css",
     "workbench.tree.renderIndentGuides": "none",
     "editor.renderIndentGuides": false,
-    "workbench.sideBar.location": "right",
     "window.menuBarVisibility": "toggle",
     "workbench.editorAssociations": {
       "*.html": "default",

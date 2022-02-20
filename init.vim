@@ -16,9 +16,9 @@ let g:mapleader=","
 
 " save and exit
 
-nnoremap <leader>z :wqa <cr>
-nnoremap <space>s :wa <cr>
-nnoremap <space>0 :q! <cr>
+"nnoremap <leader>z :wqa <cr>
+"nnoremap <leader>s :wa <cr>
+"nnoremap <leader>0 :q! <cr>
 
 nnoremap <space>S :mksession! .session.vim <cr>
 nnoremap <space>O :so .session.vim <cr>
@@ -35,6 +35,8 @@ nnoremap \ 0
 vmap 1 0
 nnoremap 0 $
 vmap 0 $
+
+nnoremap <leader>n G=gg
 
 nnoremap <space>e :Vexplore <cr>
 

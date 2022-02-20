@@ -8,7 +8,7 @@
       "command": "workbench.action.addRootFolder"
   },
   {
-      "key": "alt+b",
+      "key": "alt+e",
       "command": "workbench.action.toggleSidebarVisibility"
   },
   {
@@ -20,7 +20,7 @@
       "command": "-workbench.action.toggleSidebarVisibility"
   },
   {
-      "key": "Alt+e",
+      "key": "Alt+b",
       "command": "-workbench.view.explorer",
       "when": "viewContainer.workbench.view.explorer.enabled"
   },
@@ -67,11 +67,11 @@
       "command": "-filesExplorer.findInFolder",
       "when": "explorerResourceIsFolder && explorerViewletVisible && filesExplorerFocus && !inputFocus"
   },
-  {
-      "key": "alt+e",
-      "command": "workbench.view.explorer",
-      "when": "viewContainer.workbench.view.explorer.enabled"
-  },
+//  {
+//      "key": "alt+e",
+//      "command": "workbench.view.explorer",
+//      "when": "viewContainer.workbench.view.explorer.enabled"
+//  },
   {
       "key": "ctrl+shift+e",
       "command": "-workbench.view.explorer",

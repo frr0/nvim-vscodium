@@ -9,42 +9,10 @@ call plug#begin(stdpath('data') . 'vimplug')
 call plug#end()
 
 
-" stettings
-"===================================
-
-
-set number
-set relativenumber
-set mouse=a
-set ignorecase
-set hidden
-set spelllang=en_us
-
-set expandtab
-set tabstop=2
-set shiftwidth=2
-
-set backspace=indent,eol,start "allow backspacing over everything in insert mode
-set autoindent
-set cursorline
-
-colorscheme darkplus
-set t_Co=256
-set background=dark
-
-hi Normal ctermbg=16 guibg=#292C32
-hi LineNr ctermbg=16 guibg=#292C32
-
-syntax on
-
-
-
 " mappings
 "===================================
 
-
 let g:mapleader=","
-
 
 " save and exit
 
@@ -99,29 +67,6 @@ inoremap { {}<left>
 
 vnoremap < <gv
 vnoremap > >gv
-
-" Terminal
-
-let g:term_buf = 0
-let g:term_win = 0
-
-function! Term_toggle(height)
-    if win_gotoid(g:term_win)
-        hide
-    else
-        botright new
-        exec "resize " . a:height
-        try
-            exec "buffer " . g:term_buf
-        catch
-            call termopen($SHELL, {"detach": 0})
-            let g:term_buf = bufnr("")
-        endtry
-        startinsert!
-        let g:term_win = win_getid()
-    endif
-endfunction
-
 
 nnoremap <space>t :call Term_toggle(20)<cr>
 tnoremap <space>t <C-\><C-n>:call Term_toggle(20)<cr>

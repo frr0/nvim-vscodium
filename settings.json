@@ -1070,6 +1070,13 @@
     },
     "java.home": "/usr/lib/jvm/java",
     "workbench.colorTheme": "One Dark Pro Flat",
-    "window.zoomLevel": -1
+    "window.zoomLevel": -1,
+    "java.configuration.runtimes": [
+      {
+        "name": "JavaSE-1.8",
+        "path": "/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.322.b06-2.fc35.x86_64",
+        "default": true
+      }
+    ]
 
 }

@@ -11,3 +11,5 @@ Clone this repo in `~/.config`
 Copy `keybindings.json` and `settings.json` in `~/.config/VSCodium/User`
 
 Install 2 plugins: `VSCode Neovim` and `Which Key` 
+
+Theme I use `One Dark Pro`

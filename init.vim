@@ -2,12 +2,6 @@
 " Neovim "
 "========"
 
-
-" >> load plugins
-call plug#begin(stdpath('data') . 'vimplug')
-    Plug 'preservim/nerdcommenter'
-call plug#end()
-
 set ignorecase
 
 set expandtab
@@ -96,6 +90,10 @@ xnoremap <silent> <C-h> :call VSCodeNotify('workbench.action.navigateLeft')<CR>
 nnoremap <silent> <C-l> :call VSCodeNotify('workbench.action.navigateRight')<CR>
 xnoremap <silent> <C-l> :call VSCodeNotify('workbench.action.navigateRight')<CR>
 
+
+nnoremap <silent> <leader>z :call VSCodeNotify('workbench.action.quit')<CR>
+"nnoremap <silent> <space>h :call VSCodeNotify('workbench.action.quickOpen')<CR>
+
 nnoremap gr <Cmd>call VSCodeNotify('editor.action.goToReferences')<CR>
 
 " Bind C-/ to vscode commentary since calling from vscode produces double comments due to multiple cursors
@@ -107,7 +105,7 @@ nnoremap <silent> <C-w>_ :<C-u>call VSCodeNotify('workbench.action.toggleEditorW
 nnoremap <silent> <space> :call VSCodeNotify('whichkey.show')<CR>
 xnoremap <silent> <space> :<C-u>call <SID>openWhichKeyInVisualMode()<CR>
 
-xnoremap <silent> <C-P> :<C-u>call <SID>openVSCodeCommandsInVisualMode()<CR>
+xnoremap <silent> <C-p> :<C-u>call <SID>openVSCodeCommandsInVisualMode()<CR>
 
 xmap gc  <Plug>VSCodeCommentary
 nmap gc  <Plug>VSCodeCommentary

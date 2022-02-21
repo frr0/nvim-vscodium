@@ -1,5 +1,13 @@
 [
   {
+    "before": ["<leader>","z"],
+    "commands": ["workbench.action.quit"]
+  },
+  {
+    "before": ["<space>","s"],
+    "commands": ["workbench.action.files.save"]
+  },
+  {
       "key": "contextmenu",
       "command": "workbench.action.toggleMenuBar"
   },

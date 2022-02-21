@@ -1105,8 +1105,9 @@
         "default": true
       }
     ],
-    "workbench.colorTheme": "One Dark Pro Darker",
     "editor.minimap.enabled": false,
-    "workbench.activityBar.visible": false
+    "debug.onTaskErrors": "debugAnyway",
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "The Best Theme"
 
 }

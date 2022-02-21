@@ -1,6 +1,6 @@
 # nvim-vscodium
 
-This is a project that aims to recreate my nvim environment in vscode (VSCodium)
+This is a project that aims to recreate my nvim enviroment in vscode (VSCodium)
 
 ## Install
 

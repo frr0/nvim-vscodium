@@ -2,11 +2,11 @@
 
 This is a project that aims to recreate my nvim enviroment in vscode (VSCodium)
 
-# Install
+## Install
 
 Clone this repo in `~/.config`
 
-# Config
+## Config
 
 Copy `keybindings.json` and `settings.json` in `~/.config/VSCodium/User`
 

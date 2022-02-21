@@ -92,6 +92,7 @@ xnoremap <silent> <C-l> :call VSCodeNotify('workbench.action.navigateRight')<CR>
 
 
 nnoremap <silent> <leader>z :call VSCodeNotify('workbench.action.quit')<CR>
+nnoremap <silent> <F4> :call VSCodeNotify('workbench.action.debug.restart')<CR>
 "nnoremap <silent> <space>h :call VSCodeNotify('workbench.action.quickOpen')<CR>
 
 nnoremap gr <Cmd>call VSCodeNotify('editor.action.goToReferences')<CR>

@@ -131,7 +131,7 @@
           "command": "workbench.action.debug.start"
         },
         {
-          "key": "S",
+          "key": "x",
           "name": "Stop debug",
           "type": "command",
           "command": "workbench.action.debug.stop"
@@ -575,7 +575,7 @@
       ]
     },
     {
-      "key": "m",
+      "key": "n",
       "name": "Mark...",
       "type": "bindings",
       "bindings": [
@@ -634,7 +634,7 @@
       "command": "editor.action.toggleMinimap"
     },
     {
-      "key": "n",
+      "key": "N",
       "name": "No Highlight",
       "type": "command",
       "command": "vscode-neovim.send",
@@ -993,10 +993,16 @@
       "name": "grep",
       "type": "command",
       "command": "workbench.action.replaceInFiles"
-    }
+    },
+    {
+      "key": "m",
+      "name": "run",
+      "type": "command",
+      "command": "workbench.action.debug.start"
+    },
     {
       "key": "h",
-          "name": "Save",
+          "name": "files",
           "type": "command",
           "command": "workbench.action.quickOpen"
     }

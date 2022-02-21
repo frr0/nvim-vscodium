@@ -8,18 +8,12 @@ call plug#begin(stdpath('data') . 'vimplug')
     Plug 'preservim/nerdcommenter'
 call plug#end()
 
-"set number
-"set relativenumber
-"set mouse=a
 set ignorecase
-set hidden
-"set spelllang=en_us
 
 set expandtab
 set tabstop=2
 set shiftwidth=2
 
-set backspace=indent,eol,start "allow backspacing over everything in insert mode
 set autoindent
 set cursorline
 
@@ -28,64 +22,27 @@ set cursorline
 
 let g:mapleader=","
 
+
 " save and exit
 
 "nnoremap <leader>z :wqa <cr>
 "nnoremap <leader>s :wa <cr>
 "nnoremap <leader>0 :q! <cr>
 
-nnoremap <space>S :mksession! .session.vim <cr>
-nnoremap <space>O :so .session.vim <cr>
-
-" move
-
-nnoremap <Tab> gt
-nnoremap <S-Tab> gT
-
-nnoremap <space>v :bn <cr>
-nnoremap <space>b :tabe <cr>
-
 nnoremap \ 0
 vmap 1 0
 nnoremap 0 $
 vmap 0 $
 
-nnoremap <leader>n G=gg
-
-nnoremap <space>e :Vexplore <cr>
-
-" makefile
-
-nnoremap <space>m :make <cr>
-
-nnoremap <space>w :vsp <cr>
-nnoremap <space>i :split <cr>
-
 " yank
 
 nnoremap Y y$
-vnoremap <C-c> "+y
 nnoremap yt 0y$
-
-" man
-
-nnoremap gm :Man <cr>
-
-" brackets
-
-inoremap " ""<left>
-inoremap " ""<left>
-inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
-inoremap { {}<left>
 
 vnoremap < <gv
 vnoremap > >gv
 
-nnoremap <space>t :call Term_toggle(20)<cr>
-tnoremap <space>t <C-\><C-n>:call Term_toggle(20)<cr>
+" vscode
 
 function! s:manageEditorSize(...)
     let count = a:1
@@ -149,13 +106,13 @@ xnoremap <silent> <C-l> :call VSCodeNotify('workbench.action.navigateRight')<CR>
 nnoremap gr <Cmd>call VSCodeNotify('editor.action.goToReferences')<CR>
 
 " Bind C-/ to vscode commentary since calling from vscode produces double comments due to multiple cursors
-xnoremap <expr> <C-/> <SID>vscodeCommentary()
-nnoremap <expr> <C-/> <SID>vscodeCommentary() . '_'
+xnoremap <expr> <leader>cc <SID>vscodeCommentary()
+nnoremap <expr> <leader>cu <SID>vscodeCommentary() . '_'
 
 nnoremap <silent> <C-w>_ :<C-u>call VSCodeNotify('workbench.action.toggleEditorWidths')<CR>
 
-nnoremap <silent> <leader> :call VSCodeNotify('whichkey.show')<CR>
-xnoremap <silent> <leader> :<C-u>call <SID>openWhichKeyInVisualMode()<CR>
+nnoremap <silent> <space> :call VSCodeNotify('whichkey.show')<CR>
+xnoremap <silent> <space> :<C-u>call <SID>openWhichKeyInVisualMode()<CR>
 
 xnoremap <silent> <C-P> :<C-u>call <SID>openVSCodeCommandsInVisualMode()<CR>
 

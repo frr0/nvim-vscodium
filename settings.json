@@ -24,7 +24,7 @@
       "command": "workbench.action.showCommands"
     },
     {
-      "key": "/",
+      "key": "c",
       "name": "comment",
       "type": "command",
       "command": "vscode-neovim.send",
@@ -1076,6 +1076,7 @@
         "path": "/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.322.b06-2.fc35.x86_64",
         "default": true
       }
-    ]
+    ],
+    "workbench.activityBar.visible": false
 
 }

@@ -22,13 +22,6 @@ set cursorline
 
 let g:mapleader=","
 
-
-" save and exit
-
-"nnoremap <leader>z :wqa <cr>
-"nnoremap <leader>s :wa <cr>
-"nnoremap <leader>0 :q! <cr>
-
 nnoremap \ 0
 vmap 1 0
 nnoremap 0 $

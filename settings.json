@@ -6,6 +6,7 @@
     "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim-vscodium/init.vim",
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
+    "workbench.list.automaticKeyboardNavigation": false,
     "editor.hideCursorInOverviewRuler": true,
     "editor.overviewRulerBorder": false,
     "editor.selectionHighlight": false,
@@ -1112,8 +1113,8 @@
     ],
     "editor.minimap.enabled": false,
     "debug.onTaskErrors": "debugAnyway",
-    "workbench.activityBar.visible": false,
     "editor.tabSize": 2,
-    "editor.cursorBlinking": "solid"
+    "editor.cursorBlinking": "solid",
+    "workbench.activityBar.visible": false
 
 }

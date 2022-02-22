@@ -161,7 +161,7 @@
     "when": "inQuickOpen"
   },
   {
-    "key": "tab",
+    "key": "enter",
     "command": "list.select",
     "when": "explorerViewletVisible && filesExplorerFocus"
   },
@@ -247,6 +247,44 @@
     "key": "ctrl+f",
     "command": "-vscode-neovim.ctrl-f",
     "when": "editorTextFocus && neovim.ctrlKeysNormal && neovim.init && neovim.mode != 'insert'"
+  },
+  {
+    "key": "tab",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "down",
+    "command": "-selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+    {
+    "key": "shift+tab",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "up",
+    "command": "-selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+      "key": "j",
+      "command": "list.focusDown",
+      "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+      //"when": "listFocus"
+  },
+  {
+      "key": "k",
+      "command": "list.focusUp",
+      "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+      //"when": "listFocus"
+  },
+  {
+      "key": "l",
+      "command": "list.select",
+      "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+      //"when": "listFocus"
   },
   {
     "key": "space",

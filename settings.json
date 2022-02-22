@@ -371,13 +371,13 @@
           "command": "git.merge"
         },
         {
-          "key": "p",
+          "key": "P",
           "name": "Push",
           "type": "command",
           "command": "git.push"
         },
         {
-          "key": "P",
+          "key": "p",
           "name": "Pull",
           "type": "command",
           "command": "git.pull"
@@ -1115,6 +1115,7 @@
     "debug.onTaskErrors": "debugAnyway",
     "editor.tabSize": 2,
     "editor.cursorBlinking": "solid",
-    "workbench.activityBar.visible": false
+    "workbench.activityBar.visible": false,
+    "git.autofetch": true
 
 }

@@ -10,4 +10,4 @@ Clone this repo in `~/.config`
 
 Copy `keybindings.json` and `settings.json` in `~/.config/VSCodium/User`
 
-Install 2 plugins: `VSCode Neovim` and `Which Key`
+Install this plugins: `VSCode Neovim`, `Which Key`, `Git Extension Pack` and `Error Lens`

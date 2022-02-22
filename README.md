@@ -4,7 +4,7 @@ This project aims to recreate my nvim enviroment in vscode (VSCodium)
 
 ## Install
 
-Clone this repo in `~/.config`
+Clone these repo in `~/.config`
 
 ## Config
 

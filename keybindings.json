@@ -3,6 +3,10 @@
     "before": ["<leader>","z"],
     "commands": ["workbench.action.quit"]
   },
+ // {
+ //  "before": ["<leader>","t"],
+ //   "commands": ["workbench.action.toggleMaximizedPanel"]
+ // },
   {
     "before": ["<space>","s"],
     "commands": ["workbench.action.files.save"]
@@ -21,7 +25,8 @@
   },
   {
       "key": "alt+t",
-      "command": "workbench.action.terminal.toggleTerminal"
+          "command": "workbench.action.toggleMaximizedPanel"
+//    "command": "workbench.action.terminal.toggleTerminal"
   },
   {
       "key": "ctrl+b",

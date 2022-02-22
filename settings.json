@@ -1108,6 +1108,6 @@
     "editor.minimap.enabled": false,
     "debug.onTaskErrors": "debugAnyway",
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "The Best Theme"
+    "editor.tabSize": 2
 
 }

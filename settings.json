@@ -11,35 +11,6 @@
     "editor.selectionHighlight": false,
     "editor.occurrencesHighlight": false,
     "editor.matchBrackets": false,
-    "customizeUI.stylesheet": {
-    ".tabs-and-actions-container": {
-        "background-color": "inherit",
-    },
-    ".tabs-and-actions-container .editor-actions": {
-        "position": "absolute",
-        "top": "100%",
-        "right": "0px",
-        "height": "22px !important",
-        "z-index": "1",
-        "background-color": "inherit",
-    },
-    ".tabs-and-actions-container .editor-actions .action-item": {
-        "margin-right": "3px !important",
-    },
-    ".tabs-and-actions-container .editor-actions .action-item a": {
-        "font-size": "13px",
-    },
-    ".tabs-and-actions-container .editor-actions .action-item .codicon": {
-        "width": "13px",
-        "height": "13px",
-    },
-    ".tabs-and-actions-container .tab:last-child": {
-        "margin-right": "0 !important",
-    },
-    ".title.tabs.show-file-icons": {
-        "overflow": "unset !important",
-    },
-}
     "workbench.startupEditor": "newUntitledFile",
     "vim.vimrc.path": "$HOME/.config/nvim/init.vim",
     "vim.vimrc.enable": true,

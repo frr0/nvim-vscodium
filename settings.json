@@ -809,6 +809,12 @@
           "command": "workbench.action.togglePanel"
         },
         {
+          "key": "r",
+          "name": "full Terminal",
+          "type": "command",
+          "command": "workbench.action.toggleMaximizedPanel"
+        },
+        {
           "key": "T",
           "name": "Focus Terminal",
           "type": "command",

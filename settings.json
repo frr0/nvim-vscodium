@@ -1,25 +1,27 @@
 {
   "editor.lineNumbers": "relative",
-    "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
-    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
-    "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/vimscript/nvim-vscodium/init.vim",
-    "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim-vscodium/init.vim",
-    "editor.scrollbar.horizontal": "hidden",
-    "editor.scrollbar.vertical": "hidden",
-    "workbench.list.automaticKeyboardNavigation": false,
-    "editor.hideCursorInOverviewRuler": true,
-    "editor.overviewRulerBorder": false,
-    "editor.selectionHighlight": false,
-    "editor.occurrencesHighlight": false,
-    "editor.matchBrackets": false,
-    "workbench.startupEditor": "newUntitledFile",
-    "vim.vimrc.path": "$HOME/.config/nvim/init.vim",
-    "vim.vimrc.enable": true,
-    "breadcrumbs.filePath": "off",
-    "breadcrumbs.enabled": false,
-    "C_Cpp.intelliSenseEngine": "Enabled",
-    "latex-workshop.view.pdf.viewer": "tab",
-    "whichkey.sortOrder": "alphabetically",
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
+  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+  "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/vimscript/nvim-vscodium/init.vim",
+  "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim-vscodium/init.vim",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "workbench.list.automaticKeyboardNavigation": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.overviewRulerBorder": false,
+  "editor.selectionHighlight": false,
+  "editor.occurrencesHighlight": false,
+  "editor.matchBrackets": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "vim.vimrc.path": "$HOME/.config/nvim/init.vim",
+  "vim.vimrc.enable": true,
+  "breadcrumbs.filePath": "off",
+  "breadcrumbs.enabled": false,
+  "C_Cpp.intelliSenseEngine": "Enabled",
+  "latex-workshop.view.pdf.viewer": "tab",
+  "whichkey.sortOrder": "alphabetically",
   "whichkey.delay": 0,
   "whichkey.bindings": [
     {
@@ -990,15 +992,15 @@
     },
     {
       "key": "0",
-          "name": "Close active editor",
-          "type": "command",
-          "command": "workbench.action.closeActiveEditor"
+      "name": "Close active editor",
+      "type": "command",
+      "command": "workbench.action.closeActiveEditor"
     },
     {
       "key": "s",
-          "name": "Save",
-          "type": "command",
-          "command": "workbench.action.files.save"
+      "name": "Save",
+      "type": "command",
+      "command": "workbench.action.files.save"
     },
     {
       "key": "j",
@@ -1010,119 +1012,119 @@
       "key": "m",
       "name": "run",
       "type": "command",
-      "command": "workbench.action.debug.start"
+      "command": "workbench.action.debug.run"
     },
     {
       "key": "h",
-          "name": "files",
-          "type": "command",
-          "command": "workbench.action.quickOpen"
+      "name": "files",
+      "type": "command",
+      "command": "workbench.action.quickOpen"
     }
   ],
 
-    "files.exclude": {
-        "**/.classpath": true,
-        "**/.project": true,
-        "**/.settings": true,
-        "**/.factorypath": true
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<space>"],
+      "commands": ["whichkey.show"]
     },
-    "vim.normalModeKeyBindingsNonRecursive": [
-        {
-          "before": ["<space>"],
-          "commands": ["whichkey.show"]
-        },
-        {
-          "before": ["<leader>","s"],
-          "commands": ["workbench.action.files.save"]
-        },
-        {
-          "before": ["<leader>", "w"],
-          "commands": ["workbench.action.splitEditor"]
-        },
-        {
-          "before": ["<leader>", "e"],
-          "commands": ["-workbench.view.explorer"],
-          "when": ["viewContainer.workbench.view.explorer.enabled"]
-        },
-        {
-          "before": ["<leader>", "f"],
-          "commands": ["revealInExplorer"]
-        },
-        {
-          "before": ["<leader>", "f"],
-          "commands": ["filesExplorer.findInFolder"],
-          "when": ["explorerResourceIsFolder && explorerViewletVisible && filesExplorerFocus && !inputFocus"]
-        },
-        {
-          "before": ["<leader>", "h"],
-          "after": ["_"]
-        },
-        {
-          "before": ["<C-w>", "h"],
-          "after": ["<C-h>"]
-        },
-        {
-          "before": ["<C-w>", "j"],
-          "after": ["<C-j>"]
-        },
-        {
-          "before": ["<C-w>", "k"],
-          "after": ["<C-k"]
-        },
-        {
-          "before": ["<C-w>", "l"],
-          "after": ["<C-l>"]
-        },
-        {
-          "before": ["1"],
-          "after": ["0"]
-        },
-        {
-          "before": ["0"],
-          "after": ["$"]
-        }
-				],
-				"vim.normalModeKeyBindingsNonRecursive": [
-				{
-					"before": ["<space>"],
-					"commands": ["whichkey.show"]
-				}
-			],
-			"vim.visualModeKeyBindingsNonRecursive": [
-				{
-					"before": ["<space>"],
-					"commands": ["whichkey.show"]
-				}
-			],
-    "vim.leader": "<space>",
-    "C_Cpp.addNodeAddonIncludePaths": true,
-    "explorer.confirmDelete": false,
-    "tabnine.experimentalAutoImports": false,
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "markdown-preview-enhanced.previewTheme": "atom-dark.css",
-    "workbench.tree.renderIndentGuides": "none",
-    "editor.renderIndentGuides": false,
-    "window.menuBarVisibility": "toggle",
-    "workbench.editorAssociations": {
-      "*.html": "default",
-      "*.pdf": "default"
+    {
+      "before": ["<leader>","s"],
+      "commands": ["workbench.action.files.save"]
     },
-    "java.home": "/usr/lib/jvm/java",
-    "window.zoomLevel": -1,
-    "java.configuration.runtimes": [
-      {
-        "name": "JavaSE-1.8",
-        "path": "/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.322.b06-2.fc35.x86_64",
-        "default": true
-      }
-    ],
-    "editor.minimap.enabled": false,
-    "debug.onTaskErrors": "debugAnyway",
-    "editor.tabSize": 2,
-    "editor.cursorBlinking": "solid",
-    "git.autofetch": true,
-    "explorer.confirmDragAndDrop": false,
-    "workbench.activityBar.visible": false
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.splitEditor"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["-workbench.view.explorer"],
+      "when": ["viewContainer.workbench.view.explorer.enabled"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["revealInExplorer"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["filesExplorer.findInFolder"],
+      "when": ["explorerResourceIsFolder && explorerViewletVisible && filesExplorerFocus && !inputFocus"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "after": ["_"]
+    },
+    {
+      "before": ["<C-w>", "h"],
+      "after": ["<C-h>"]
+    },
+    {
+      "before": ["<C-w>", "j"],
+      "after": ["<C-j>"]
+    },
+    {
+      "before": ["<C-w>", "k"],
+      "after": ["<C-k"]
+    },
+    {
+      "before": ["<C-w>", "l"],
+      "after": ["<C-l>"]
+    },
+    {
+      "before": ["1"],
+      "after": ["0"]
+    },
+    {
+      "before": ["0"],
+      "after": ["$"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<space>"],
+      "commands": ["whichkey.show"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<space>"],
+      "commands": ["whichkey.show"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "C_Cpp.addNodeAddonIncludePaths": true,
+  "explorer.confirmDelete": false,
+  "tabnine.experimentalAutoImports": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "markdown-preview-enhanced.previewTheme": "atom-dark.css",
+  "workbench.tree.renderIndentGuides": "none",
+  "editor.renderIndentGuides": false,
+  "window.menuBarVisibility": "toggle",
+  "workbench.editorAssociations": {
+    "*.html": "default",
+    "*.pdf": "default"
+  },
+  "java.home": "/usr/lib/jvm/java",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-1.8",
+      "path": "/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.322.b06-2.fc35.x86_64",
+      "default": true
+    }
+  ],
+  "editor.minimap.enabled": false,
+  "debug.onTaskErrors": "debugAnyway",
+  "editor.tabSize": 2,
+  "editor.cursorBlinking": "solid",
+  "git.autofetch": true,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.activityBar.visible": false,
+  "window.zoomLevel": -1
 
 }

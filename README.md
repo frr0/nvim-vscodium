@@ -12,6 +12,11 @@ Clone this repo in `~/.config`.
 
 ## Config
 
+run:
+```
+chmod +x setup.sh && ./setup.sh
+```
+
 `nvim` has to be installed (v 0.5+),
 
 Copy `keybindings.json` and `settings.json` in `~/.config/VSCodium/User`,

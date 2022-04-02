@@ -17,7 +17,7 @@ set cursorline
 let g:mapleader=","
 
 nnoremap \ 0
-vmap 1 0
+vmap \ 0
 nnoremap 0 $
 vmap 0 $
 

@@ -1,8 +1,8 @@
 #!/bin/sh
 
 if [ -d ~/.config/Code ]; then
-  mv ~/.config/Code/User/keybindings.json ~/.config/Code/User/keybindings_OLDS.json 
-  mv ~/.config/Code/User/settings.json ~/.config/Code/User/settings_OLDS.json 
+  mv ~/.config/Code/User/keybindings.json ~/.config/Code/User/keybindings_OLD.json 
+  mv ~/.config/Code/User/settings.json ~/.config/Code/User/settings_OLD.json 
   mv .config/nvim-vscodium/settings.json ~/.config/Code/User/  
   mv .config/nvim-vscodium/keybindings.json ~/.config/Code/User/  
 

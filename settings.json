@@ -1108,7 +1108,7 @@
   "window.menuBarVisibility": "toggle",
   "workbench.editorAssociations": {
     "*.html": "default",
-    "*.pdf": "default"
+    "*.pdf": "pdf.preview"
   },
   "java.home": "/usr/lib/jvm/java",
   "java.configuration.runtimes": [
@@ -1124,7 +1124,12 @@
   "editor.cursorBlinking": "solid",
   "git.autofetch": true,
   "explorer.confirmDragAndDrop": false,
-  "workbench.activityBar.visible": false,
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "git.confirmSync": false,
+  "oracledevtools.bookmarkFileFolder": "/home/fra/Oracle/oracle.oracledevtools",
+  "oracledevtools.download.otherFolder": "/home/fra/downloads",
+  "oracledevtools.connectionConfiguration.configFilesFolder": "/home/fra/Oracle/network/admin",
+  "oracledevtools.connectionConfiguration.walletFileFolder": "/home/fra/Oracle/network/admin",
+  "workbench.activityBar.visible": false
 
 }

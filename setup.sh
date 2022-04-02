@@ -50,6 +50,9 @@ if [ -d ~/.config/Code ]; then
   code --install-extension yzhang.markdown-all-in-one
 fi
 
+# to obtain the list run:
+# code --list-extensions | xargs -L 1 echo code --install-extension
+
 # VSCodium does't have many plugins
 
 #if [ -d ~/.config/VSCodium ]; then

@@ -4,8 +4,10 @@
   "telemetry.enableTelemetry": false,
   "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
   "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+  "vscode-neovim.neovimExecutablePaths.win32": "C:\neovim\bin\nvim.exe",
   "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/vimscript/nvim-vscodium/init.vim",
   "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim-vscodium/init.vim",
+  "vscode-neovim.neovimInitVimPaths.win32": "$HOME/.config/nvim-vscodium/init.vim",
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "workbench.list.automaticKeyboardNavigation": false,
@@ -1124,12 +1126,12 @@
   "editor.cursorBlinking": "solid",
   "git.autofetch": true,
   "explorer.confirmDragAndDrop": false,
-  "window.zoomLevel": -1,
   "git.confirmSync": false,
   "oracledevtools.bookmarkFileFolder": "/home/fra/Oracle/oracle.oracledevtools",
   "oracledevtools.download.otherFolder": "/home/fra/downloads",
   "oracledevtools.connectionConfiguration.configFilesFolder": "/home/fra/Oracle/network/admin",
   "oracledevtools.connectionConfiguration.walletFileFolder": "/home/fra/Oracle/network/admin",
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "window.zoomLevel": -1
 
 }

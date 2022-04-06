@@ -21,10 +21,16 @@ vmap \ 0
 nnoremap 0 $
 vmap 0 $
 
-" yank
+nnoremap + {
+nnoremap - }
 
-nnoremap Y y$
+nnoremap yu y$
 nnoremap yt 0y$
+vnoremap <C-c> "+y
+nnoremap <C-y> "+y
+
+nnoremap gn G=ggg;
+nnoremap gc :%s/
 
 vnoremap < <gv
 vnoremap > >gv

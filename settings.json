@@ -15,7 +15,7 @@
   "editor.overviewRulerBorder": false,
   "editor.selectionHighlight": false,
   "editor.occurrencesHighlight": false,
-  "editor.matchBrackets": false,
+  "editor.matchBrackets": "never",
   "workbench.startupEditor": "newUntitledFile",
   "vim.vimrc.path": "$HOME/.config/nvim/init.vim",
   "vim.vimrc.enable": true,
@@ -23,6 +23,7 @@
   "breadcrumbs.enabled": false,
   "C_Cpp.intelliSenseEngine": "Enabled",
   "latex-workshop.view.pdf.viewer": "tab",
+  "editor.scrollBeyondLastLine": false,
   "whichkey.sortOrder": "alphabetically",
   "whichkey.delay": 0,
   "whichkey.bindings": [
@@ -1023,7 +1024,6 @@
       "command": "workbench.action.quickOpen"
     }
   ],
-
   "files.exclude": {
     "**/.classpath": true,
     "**/.project": true,
@@ -1032,70 +1032,124 @@
   },
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["<space>"],
-      "commands": ["whichkey.show"]
+      "before": [
+        "<space>"
+      ],
+      "commands": [
+        "whichkey.show"
+      ]
     },
     {
-      "before": ["<leader>","s"],
-      "commands": ["workbench.action.files.save"]
+      "before": [
+        "<leader>",
+        "s"
+      ],
+      "commands": [
+        "workbench.action.files.save"
+      ]
     },
     {
-      "before": ["<leader>", "w"],
-      "commands": ["workbench.action.splitEditor"]
+      "before": [
+        "<leader>",
+        "w"
+      ],
+      "commands": [
+        "workbench.action.splitEditor"
+      ]
     },
     {
-      "before": ["<leader>", "e"],
-      "commands": ["-workbench.view.explorer"],
-      "when": ["viewContainer.workbench.view.explorer.enabled"]
+      "before": [
+        "<leader>",
+        "e"
+      ],
+      "commands": [
+        "-workbench.view.explorer"
+      ],
+      "when": [
+        "viewContainer.workbench.view.explorer.enabled"
+      ]
     },
     {
-      "before": ["<leader>", "f"],
-      "commands": ["revealInExplorer"]
+      "before": [
+        "<leader>",
+        "f"
+      ],
+      "commands": [
+        "revealInExplorer"
+      ]
     },
     {
-      "before": ["<leader>", "f"],
-      "commands": ["filesExplorer.findInFolder"],
-      "when": ["explorerResourceIsFolder && explorerViewletVisible && filesExplorerFocus && !inputFocus"]
+      "before": [
+        "<leader>",
+        "f"
+      ],
+      "commands": [
+        "filesExplorer.findInFolder"
+      ],
+      "when": [
+        "explorerResourceIsFolder && explorerViewletVisible && filesExplorerFocus && !inputFocus"
+      ]
     },
     {
-      "before": ["<leader>", "h"],
-      "after": ["_"]
+      "before": [
+        "<leader>",
+        "h"
+      ],
+      "after": [
+        "_"
+      ]
     },
     {
-      "before": ["<C-w>", "h"],
-      "after": ["<C-h>"]
+      "before": [
+        "<C-w>",
+        "h"
+      ],
+      "after": [
+        "<C-h>"
+      ]
     },
     {
-      "before": ["<C-w>", "j"],
-      "after": ["<C-j>"]
+      "before": [
+        "<C-w>",
+        "j"
+      ],
+      "after": [
+        "<C-j>"
+      ]
     },
     {
-      "before": ["<C-w>", "k"],
-      "after": ["<C-k"]
+      "before": [
+        "<C-w>",
+        "k"
+      ],
+      "after": [
+        "<C-k"
+      ]
     },
     {
-      "before": ["<C-w>", "l"],
-      "after": ["<C-l>"]
+      "before": [
+        "<C-w>",
+        "l"
+      ],
+      "after": [
+        "<C-l>"
+      ]
     },
     {
-      "before": ["1"],
-      "after": ["0"]
+      "before": [
+        "1"
+      ],
+      "after": [
+        "0"
+      ]
     },
     {
-      "before": ["0"],
-      "after": ["$"]
-    }
-  ],
-  "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": ["<space>"],
-      "commands": ["whichkey.show"]
-    }
-  ],
-  "vim.visualModeKeyBindingsNonRecursive": [
-    {
-      "before": ["<space>"],
-      "commands": ["whichkey.show"]
+      "before": [
+        "0"
+      ],
+      "after": [
+        "$"
+      ]
     }
   ],
   "vim.leader": "<space>",
@@ -1106,13 +1160,11 @@
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "markdown-preview-enhanced.previewTheme": "atom-dark.css",
   "workbench.tree.renderIndentGuides": "none",
-  "editor.renderIndentGuides": false,
   "window.menuBarVisibility": "toggle",
   "workbench.editorAssociations": {
     "*.html": "default",
     "*.pdf": "pdf.preview"
   },
-  "java.home": "/usr/lib/jvm/java",
   "java.configuration.runtimes": [
     {
       "name": "JavaSE-1.8",
@@ -1131,7 +1183,20 @@
   "oracledevtools.download.otherFolder": "/home/fra/downloads",
   "oracledevtools.connectionConfiguration.configFilesFolder": "/home/fra/Oracle/network/admin",
   "oracledevtools.connectionConfiguration.walletFileFolder": "/home/fra/Oracle/network/admin",
-  "workbench.activityBar.visible": false,
-  "window.zoomLevel": -1
-
+  "window.zoomLevel": -1,
+  "editor.guides.indentation": false,
+  "dart.flutterSdkPath": "/home/fra/dev/flutter",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "cmake.configureOnOpen": true
 }

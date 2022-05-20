@@ -1,108 +1,108 @@
 [
   {
-    "before": ["<leader>","z"],
-    "commands": ["workbench.action.quit"]
-  },
- // {
- //  "before": ["<leader>","t"],
- //   "commands": ["workbench.action.toggleMaximizedPanel"]
- // },
-  {
-    "before": ["<space>","s"],
-    "commands": ["workbench.action.files.save"]
+    "before": [
+      "<leader>",
+      "z"
+    ],
+    "commands": [
+      "workbench.action.quit"
+    ]
   },
   {
-      "key": "contextmenu",
-      "command": "workbench.action.toggleMenuBar"
+    "before": [
+      "<space>",
+      "s"
+    ],
+    "commands": [
+      "workbench.action.files.save"
+    ]
   },
   {
-      "key": "<leader>+f",
-      "command": "workbench.action.addRootFolder"
+    "key": "contextmenu",
+    "command": "workbench.action.toggleMenuBar"
   },
   {
-      "key": "alt+e",
-      "command": "workbench.action.toggleSidebarVisibility"
+    "key": "<leader>+f",
+    "command": "workbench.action.addRootFolder"
   },
   {
-      "key": "alt+t",
-          "command": "workbench.action.toggleMaximizedPanel"
-//    "command": "workbench.action.terminal.toggleTerminal"
+    "key": "alt+e",
+    "command": "workbench.action.toggleSidebarVisibility"
   },
   {
-      "key": "ctrl+b",
-      "command": "-workbench.action.toggleSidebarVisibility"
+    "key": "alt+t",
+    "command": "workbench.action.toggleMaximizedPanel"
   },
   {
-      "key": "Alt+b",
-      "command": "-workbench.view.explorer",
-      "when": "viewContainer.workbench.view.explorer.enabled"
+    "key": "ctrl+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
   },
   {
-      "key": "alt+j",
-      "command": "workbench.action.togglePanel"
+    "key": "Alt+b",
+    "command": "-workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled"
   },
   {
-      "key": "ctrl+j",
-      "command": "-workbench.action.togglePanel"
+    "key": "alt+j",
+    "command": "workbench.action.togglePanel"
   },
   {
-      "key": "alt+g",
-      "command": "workbench.view.scm",
-      "when": "workbench.scm.active"
+    "key": "ctrl+j",
+    "command": "-workbench.action.togglePanel"
   },
   {
-      "key": "ctrl+shift+g",
-      "command": "-workbench.view.scm",
-      "when": "workbench.scm.active"
+    "key": "alt+g",
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active"
   },
   {
-      "key": "ctrl+h",
-      "command": "workbench.action.navigateLeft"
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active"
   },
   {
-      "key": "ctrl+l",
-      "command": "workbench.action.navigateRight"
+    "key": "ctrl+h",
+    "command": "workbench.action.navigateLeft"
   },
   {
-      "key": "ctrl+k",
-      "command": "workbench.action.navigateUp"
+    "key": "ctrl+l",
+    "command": "workbench.action.navigateRight"
   },
   {
-      "key": "ctrl+j",
-      "command": "workbench.action.navigateDown"
+    "key": "ctrl+k",
+    "command": "workbench.action.navigateUp"
   },
   {
-      "key": "ctrl+s",
-      "command": "-workbench.action.files.save"
+    "key": "ctrl+j",
+    "command": "workbench.action.navigateDown"
   },
   {
-      "key": "shift+alt+f",
-      "command": "-filesExplorer.findInFolder",
-      "when": "explorerResourceIsFolder && explorerViewletVisible && filesExplorerFocus && !inputFocus"
-  },
-//  {
-//      "key": "alt+e",
-//      "command": "workbench.view.explorer",
-//      "when": "viewContainer.workbench.view.explorer.enabled"
-//  },
-  {
-      "key": "ctrl+shift+e",
-      "command": "-workbench.view.explorer",
-      "when": "viewContainer.workbench.view.explorer.enabled"
+    "key": "ctrl+s",
+    "command": "-workbench.action.files.save"
   },
   {
-      "key": "alt+f",
-      "command": "workbench.action.files.openFolder",
-      "when": "openFolderWorkspaceSupport"
+    "key": "shift+alt+f",
+    "command": "-filesExplorer.findInFolder",
+    "when": "explorerResourceIsFolder && explorerViewletVisible && filesExplorerFocus && !inputFocus"
   },
   {
-      "key": "ctrl+k ctrl+o",
-      "command": "-workbench.action.files.openFolder",
-      "when": "openFolderWorkspaceSupport"
+    "key": "ctrl+shift+e",
+    "command": "-workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled"
   },
   {
-      "key": "ctrl+l",
-      "command": "-extension.vim_navigateCtrlL"
+    "key": "alt+f",
+    "command": "workbench.action.files.openFolder",
+    "when": "openFolderWorkspaceSupport"
+  },
+  {
+    "key": "ctrl+k ctrl+o",
+    "command": "-workbench.action.files.openFolder",
+    "when": "openFolderWorkspaceSupport"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "-extension.vim_navigateCtrlL"
   },
   {
     "key": "shift+ctrl+e",
@@ -258,7 +258,7 @@
     "command": "-selectNextSuggestion",
     "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
   },
-    {
+  {
     "key": "shift+tab",
     "command": "selectPrevSuggestion",
     "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
@@ -269,25 +269,23 @@
     "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
   },
   {
-      "key": "j",
-      "command": "list.focusDown",
-      "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
-      //"when": "listFocus"
+    "key": "j",
+    "command": "list.focusDown",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
   },
   {
-      "key": "k",
-      "command": "list.focusUp",
-      "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
-      //"when": "listFocus"
+    "key": "k",
+    "command": "list.focusUp",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
   },
   {
-      "key": "l",
-      "command": "list.select",
-      "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
-      //"when": "listFocus"
+    "key": "l",
+    "command": "list.select",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
   },
   {
     "key": "space",
     "command": "whichkey.show",
     "when": "neovim.mode != 'insert' && !inputFocus"
   }
+]

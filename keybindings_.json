@@ -30,17 +30,20 @@
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
-    "key": "yy",
+    "key": "ctrl+c",
     "command": "editor.action.clipboardCopyAction"
   },
   {
-    "key": "Y",
+    "key": "y",
     "command": "editor.action.clipboardCopyAction"
   },
   {
     "key": "p",
-    "command": "editor.action.clipboardPasteAction",
-    "when": "editorTextFocus && neovim.mode == 'normal'"
+    "command": "editor.action.clipboardPasteAction"
+  },
+  {
+    "key": "ctrl+v",
+    "command": "editor.action.clipboardPasteAction"
   },
   {
     "key": "alt+t",

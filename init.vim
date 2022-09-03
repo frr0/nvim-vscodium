@@ -17,9 +17,9 @@ set cursorline
 let g:mapleader=","
 
 nnoremap \ 0
-vmap \ 0
+vnoremap \ 0
 nnoremap 0 $
-vmap 0 $
+vnoremap 0 $
 
 nnoremap + {
 nnoremap - }
@@ -27,7 +27,9 @@ nnoremap - }
 nnoremap yu y$
 nnoremap yt 0y$
 vnoremap <C-c> "+y
-nnoremap <C-y> "+y
+nnoremap <C-c> "+y
+""nnoremap <C-y> "+y
+""vnoremap <C-y> "+y
 
 nnoremap gn G=ggg;
 nnoremap gc :%s/

@@ -2,12 +2,6 @@
   "editor.lineNumbers": "relative",
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
-  "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
-  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
-  "vscode-neovim.neovimExecutablePaths.win32": "C:\neovim\bin\nvim.exe",
-  "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/vimscript/nvim-vscodium/init.vim",
-  "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim-vscodium/init.vim",
-  "vscode-neovim.neovimInitVimPaths.win32": "$HOME/.config/nvim-vscodium/init.vim",
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "workbench.list.automaticKeyboardNavigation": false,
@@ -17,7 +11,7 @@
   "editor.occurrencesHighlight": false,
   "editor.matchBrackets": "never",
   "workbench.startupEditor": "newUntitledFile",
-  "vim.vimrc.path": "$HOME/.config/nvim/init.vim",
+  "vim.vimrc.path": "/home/fra/.config/nvim/init.vim",
   "vim.vimrc.enable": true,
   "breadcrumbs.filePath": "off",
   "breadcrumbs.enabled": false,
@@ -1172,7 +1166,6 @@
       "default": true
     }
   ],
-  "editor.minimap.enabled": false,
   "debug.onTaskErrors": "debugAnyway",
   "editor.tabSize": 2,
   "editor.cursorBlinking": "solid",
@@ -1198,5 +1191,6 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
   },
-  "cmake.configureOnOpen": true
+  "cmake.configureOnOpen": true,
+  "editor.minimap.enabled": false
 }

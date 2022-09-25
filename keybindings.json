@@ -34,7 +34,16 @@
     "command": "editor.action.clipboardCopyAction"
   },
   {
+    "key": "dd",
+    "command": "editor.action.clipboardCopyAction"
+  },
+  {
     "key": "y",
+    "command": "editor.action.clipboardCopyAction",
+    "when": "editorTextFocus && neovim.mode == 'visual'"
+  },
+  {
+    "key": "d",
     "command": "editor.action.clipboardCopyAction",
     "when": "editorTextFocus && neovim.mode == 'visual'"
   },

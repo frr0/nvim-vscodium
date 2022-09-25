@@ -30,33 +30,6 @@
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
-    "key": "yy",
-    "command": "editor.action.clipboardCopyAction"
-  },
-  {
-    "key": "dd",
-    "command": "editor.action.clipboardCopyAction"
-  },
-  {
-    "key": "y",
-    "command": "editor.action.clipboardCopyAction",
-    "when": "editorTextFocus && neovim.mode == 'visual'"
-  },
-  {
-    "key": "Y",
-    "command": "editor.action.clipboardCopyAction"
-  },
-  {
-    "key": "p",
-    "command": "editor.action.clipboardPasteAction",
-    "when": "editorTextFocus && neovim.mode == 'normal'"
-  },
-  {
-    "key": "P",
-    "command": "editor.action.clipboardPasteAction",
-    "when": "editorTextFocus && neovim.mode == 'normal'"
-  },
-  {
     "key": "alt+t",
     "command": "workbench.action.toggleMaximizedPanel"
   },

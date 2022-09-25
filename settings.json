@@ -2,6 +2,12 @@
   "editor.lineNumbers": "relative",
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
+  "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
+  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+  "vscode-neovim.neovimExecutablePaths.win32": "C:\neovim\bin\nvim.exe",
+  "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/vimscript/nvim-vscodium/init.vim",
+  "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim-vscodium/init.vim",
+  "vscode-neovim.neovimInitVimPaths.win32": "$HOME/.config/nvim-vscodium/init.vim",
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "workbench.list.automaticKeyboardNavigation": false,
@@ -1160,6 +1166,7 @@
     "*.pdf": "pdf.preview"
   },
   "java.configuration.runtimes": [
+  
     {
       "name": "JavaSE-1.8",
       "path": "/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.322.b06-2.fc35.x86_64",
@@ -1192,5 +1199,7 @@
     "editor.wordBasedSuggestions": false
   },
   "cmake.configureOnOpen": true,
-  "editor.minimap.enabled": false
+  "editor.minimap.enabled": false,
+  "telemetry.telemetryLevel": "off",
+  "workbench.activityBar.visible": false
 }

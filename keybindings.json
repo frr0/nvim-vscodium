@@ -43,11 +43,6 @@
     "when": "editorTextFocus && neovim.mode == 'visual'"
   },
   {
-    "key": "d",
-    "command": "editor.action.clipboardCopyAction",
-    "when": "editorTextFocus && neovim.mode == 'visual'"
-  },
-  {
     "key": "Y",
     "command": "editor.action.clipboardCopyAction"
   },
